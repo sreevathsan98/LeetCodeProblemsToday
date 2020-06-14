@@ -20,8 +20,7 @@ Output: False
 Explanation: 
 The only way to decode it is two-bit character and two-bit character. So the last character is NOT one-bit character.
 
-Code:
-  class Solution {
+class Solution {
     public boolean isOneBitCharacter(int[] bits) {
      for(int i=0;i<bits.length;){
          if(i==bits.length-1&&bits[i]==0){
